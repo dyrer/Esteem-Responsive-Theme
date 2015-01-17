@@ -11,7 +11,7 @@
       $('.social-icons li').each(function(){
         var url = $(this).find('a').attr('href');
         if(url == ''){
-         $(this).hide();
+          $(this).hide();
         }
       });
       $('.nav-toggle').click(function() {
@@ -46,4 +46,3 @@
     }
   }
 })(jQuery);
-
