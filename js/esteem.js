@@ -5,7 +5,7 @@
 
 (function ($) {
 
-  Drupal.behaviors.custom_behavior = {
+  Drupal.behaviors.esteem = {
     attach: function(context, settings) {
 
       $('.social-icons li').each(function(){
