@@ -8,6 +8,11 @@ Drupal compatibility:
 ------------------------------
 This theme is compatible with Drupal 7.x
 
+Required Modules:
+------------------------------
+https://www.drupal.org/project/nivo_slider
+https://www.drupal.org/project/fontawesome
+
 Browser compatibility
 ------------------------------
 IE 8+ and all modern browsers

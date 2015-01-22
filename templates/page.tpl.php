@@ -95,7 +95,7 @@
 
     <div class="top_right">
       <nav id="main-menu"  role="navigation">
-        <a class="nav-toggle" href="#">Navigation</a>
+        <a class="nav-toggle" href="#">Menu</a>
         <div class="menu-navigation-container">
           <?php $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
             print drupal_render($main_menu_tree);
@@ -242,32 +242,32 @@
             </a>
           </li>
           <li>
-            <?php print '<a href="'. check_url(theme_get_setting('facebook_profile_url', 'esteem')) .'">'; ?>
+            <?php print '<a href="' . check_url(theme_get_setting('facebook_profile_url', 'esteem')) . '">'; ?>
               <i class="fa fa-facebook"></i>
             </a>
           </li>
           <li>
-            <?php print '<a href="'. check_url(theme_get_setting('twitter_profile_url', 'esteem')) .'">'; ?>
+            <?php print '<a href="' . check_url(theme_get_setting('twitter_profile_url', 'esteem')) . '">'; ?>
               <i class="fa fa-twitter"></i>
             </a>
           </li>
           <li>
-            <?php print '<a href="'. check_url(theme_get_setting('gplus_profile_url', 'esteem')) .'">'; ?>
+            <?php print '<a href="' . check_url(theme_get_setting('gplus_profile_url', 'esteem')) . '">'; ?>
               <i class="fa fa-google-plus"></i>
             </a>
           </li>
           <li>
-            <?php print '<a href="'. check_url(theme_get_setting('linkedin_profile_url', 'esteem')) .'">'; ?>
+            <?php print '<a href="' . check_url(theme_get_setting('linkedin_profile_url', 'esteem')) . '">'; ?>
               <i class="fa fa-linkedin"></i>
             </a>
           </li>
           <li>
-            <?php print '<a href="'. check_url(theme_get_setting('pinterest_profile_url', 'esteem')) .'">'; ?>
+            <?php print '<a href="' . check_url(theme_get_setting('pinterest_profile_url', 'esteem')) . '">'; ?>
               <i class="fa fa-pinterest"></i>
             </a>
           </li>
           <li>
-            <?php print '<a href="'. check_url(theme_get_setting('youtube_profile_url', 'esteem')) .'">'; ?>
+            <?php print '<a href="' . check_url(theme_get_setting('youtube_profile_url', 'esteem')) . '">'; ?>
               <i class="fa fa-youtube"></i>
             </a>
           </li>

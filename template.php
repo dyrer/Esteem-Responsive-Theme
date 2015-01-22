@@ -86,9 +86,9 @@ function esteem_menu_local_tasks(&$variables) {
 }
 
 /**
- * Device width.
+ * Implements hook_page_alter().
  */
-function hook_page_alter($page) {
+function esteem_page_alter($page) {
   $viewport = array(
     '#type' => 'html_tag',
     '#tag' => 'meta',
