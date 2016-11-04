@@ -1,28 +1,12 @@
 name = Esteem
-description =  Esteem is drupal responsive drupal theme
-core = 7.x
-engine = phptemplate
+description =  Esteem is Backdrop CMS responsive theme
+backdrop = 1.x
+type = theme
+
 stylesheets[all][] = css/esteem.css
 stylesheets[all][] = css/esteem-media.css
 scripts[] = js/esteem.js
 
-regions[user_menu] = User menu
-regions[top_message] = Top message
-regions[slideshow] = Slideshow
-regions[search] = Search
-regions[sidebar_first] = First Sidebar
-regions[sidebar_second] = Second Sidebar
-regions[content] = Content
-regions[top_first] = First top
-regions[top_second] = Second top
-regions[top_third] = Third top
-regions[top_first_widget] = Top first widget
-regions[top_second_widget] = Top second widget
-regions[footer_first] = First Bottom
-regions[footer_second] = Second Bottom
-regions[footer_third] = Third Bottom
-regions[footer_forth] = Forth Bottom
-regions[offer] = Offer
 
 features[] = logo
 features[] = name

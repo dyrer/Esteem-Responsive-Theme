@@ -76,17 +76,17 @@
 
 ?>
 <?php if (!$page): ?>
-  <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
+  <article id="node-<?php print $node->nid; ?>" class="<?php print explode(' ', $classes); ?> clearfix"<?php print backdrop_attributes($attributes); ?>>
 <?php endif; ?>
     <?php if (!$page): ?>
       <header>
   <?php endif; ?>
       <?php print render($title_prefix); ?>
       <?php if (!$page): ?>
-      <h2 class="title" <?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
+      <h2 class="title"><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
       <?php endif; ?>
       <?php print render($title_suffix); ?>
-  
+
       <?php if ($display_submitted): ?>
         <span class="submitted"><?php print $submitted; ?></span>
       <?php endif; ?>
@@ -95,7 +95,7 @@
       </header>
   <?php endif; ?>
 
-  <div class="content"<?php print $content_attributes; ?>>
+  <div class="content">
     <?php
       // Hide comments, tags, and links now so that we can render them later.
       hide($content['comments']);

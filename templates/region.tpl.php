@@ -5,7 +5,7 @@
  */
 
 if (!empty($content)): ?>
-<div class="<?php print $classes; ?>">
-  <?php print $content; ?>
+<div class="<?php print implode(' ', $classes); ?>">
+  <?php print render($content); ?>
 </div>
 <?php endif; ?>
